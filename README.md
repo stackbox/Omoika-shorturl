@@ -14,7 +14,7 @@ shorturl短地址应用
     		 
 * notice:需把这四个jar导入到classpath中（即referenced libraries）
 
-* 连接池采用dbcp，配置采用硬编码（*info.superalsrk.utils.JdbcUtils*）,没有采用properties
+* 连接池采用dbcp，配置采用硬编码（info.superalsrk.utils.JdbcUtils）,没有采用properties
 
 * 数据库采用myql5，所用表结构为
 
