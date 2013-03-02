@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>search advice</title>
+<style type="text/css">
+body {
+	font-family: "yaHei Consolas Hybrid";
+	margin: 0;
+}
+
+ul {
+	margin: 0;
+	list-style: none;
+	padding: 0;
+}
+/*搜索栏*/
+.search-block {
+	width: 700px;
+	position: relative;
+	margin: 20% 4cm 3cm 7cm;
+}
+
+.search-label p {
+	magin-left: 50px;
+}
+
+.search-block input {
+	font-size: 20px;
+}
+
+/*输入框*/
+.txt-default {
+	width: 678px;
+	height: 28px;
+	border: 1px solid #ddd;
+	padding: 10px;
+}
+/*按钮*/
+.btn {
+	border: 0;
+	width: 100px;
+	height: 50px;
+	background-color: #56bdf3;
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+}
+/*搜索按钮*/
+.search-button {
+	position: absolute;
+	left: 700px;
+	top: 0;
+}
+</style>
+
+</head>
+
+<body>
+	<div
+		style="border: 1px solid #ccc; height: 50px; line_height: 50px; text-align: center;">
+		<p>Omoika URL Shorter</p>
+	</div>
+	<div class="search-block">
+		<form name="input" action="recordsetservlet.do" method="post">
+			<input type="text" name="url" id="txt-search" class="txt-default" />
+			 <input
+				type="submit" id="submit-button" class="btn search-button"
+				value="Submit" />
+		</form>
+	</div>
+	
+</body>
+</html>
