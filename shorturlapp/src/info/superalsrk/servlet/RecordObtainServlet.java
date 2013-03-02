@@ -65,6 +65,8 @@ public class RecordObtainServlet extends HttpServlet {
 			} else {
 				resp.sendRedirect("404.html");
 			}
+			
+			conn.close();
 
 		} catch (SQLException e) {
 			e.printStackTrace();
